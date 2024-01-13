@@ -26,9 +26,13 @@
     "defaults"
   ],
   "dependencies": {
+    "@jspsych/plugin-html-button-response": "^1.1.3",
     "@jspsych/plugin-html-keyboard-response": "^1.1.3",
+    "@jspsych/plugin-image-button-response": "^1.1.3",
     "@jspsych/plugin-image-keyboard-response": "^1.1.3",
     "@jspsych/plugin-preload": "^1.1.3",
+    "@jspsych/plugin-survey-multi-choice": "^1.1.3",
+    "@jspsych/plugin-survey-text": "^1.1.3",
     "firebase": "^10.7.1",
     "jspsych": "^7.3.4"
   },

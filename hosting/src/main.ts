@@ -1,7 +1,8 @@
 import { runExperiment } from './experiment'
 import { debugging, getExptInitialized, setExptInitialized } from './globalVariables'
 
-import './styles/main.css'
+import './styles/jspsych.css'
+import './styles/codenames.css'
 
 const debug = debugging()
 

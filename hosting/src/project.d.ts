@@ -11,6 +11,16 @@ export interface RecursiveRecord {
 export type RecursiveRecordArray = Record<string, number | string | RecursiveRecord | number[] | string[] | RecursiveRecord[]>
 
 export interface TrialData {
+  chosen_words: string[]
+  exp_phase: string
+  intended_words: string[]
+  words: string[]
+  trial_order: number
+  clue: string
+  num_correct: number
+
+  subject_id: number
+
   task: string
   response: string
   correct: boolean
