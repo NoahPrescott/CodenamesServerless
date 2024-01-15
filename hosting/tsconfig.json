@@ -1,7 +1,3 @@
 {
-  "extends": "./tsconfig.prod",
-  "compilerOptions": {
-    "allowJs": true,
-    "skipLibCheck": true
-  }
+  "extends": "./tsconfig.prod"
 }

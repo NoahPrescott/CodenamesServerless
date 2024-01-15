@@ -5,7 +5,7 @@ import jsPsychSurveyText from '@jspsych/plugin-survey-text'
 import jsPsychSurveyMultiChoice from '@jspsych/plugin-survey-multi-choice'
 
 //import custom plug-in
-import jsPsychHtmlMultiButtonResponse from '@jspsych/plugin-html-multi-button-response.js'
+import jsPsychHtmlMultiButtonResponse from '../src/custom-plugin/plugin-html-multi-button-response'
 
 //import jsPsychPreload from '@jspsych/plugin-preload'
 import { initJsPsych } from 'jspsych'
